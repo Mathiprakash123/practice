@@ -4,7 +4,7 @@ const WeatherApp = (props) => {
   return (
     <div className=" text-center justify-center text-white space-y-10">
       <img src={props.icon} alt="no-image" className="m-3 ml-28 rounded" />
-      <div className="flex space-x-2 ml-52 my-10">
+      <div className="flex space-x-2 ml-52 my-10 ">
         <h1 className=" text-xl text-white ">{props.temp}</h1>
         <svg
           xmlns="http://www.w3.org/2000/svg"
